@@ -9,7 +9,7 @@
     "test:watch": "jest --watchAll"
   },
   "keywords": ["typescript", "jest", "army", "battle", "state-pattern"],
-  "author": "Tu Nombre",
+  "author": "Juan Karabin",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.3",

@@ -16,11 +16,11 @@ export class Battle {
 
     if (attackStrength > defendStrength) {
       this.winner = this.attacker;
-      this.attacker.gold += 100;
+      this.attacker.reward(100);
       this.defender.removeTopUnits(2);
     } else if (defendStrength > attackStrength) {
       this.winner = this.defender;
-      this.defender.gold += 100;
+      this.defender.reward(100);
       this.attacker.removeTopUnits(2);
     } else {
       this.attacker.removeTopUnits(1);

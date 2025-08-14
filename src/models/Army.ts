@@ -62,5 +62,8 @@ export class Army {
     return battle;
   }
 
+  reward(amount: number) {
+    this.gold += amount;
+  }
 
 }
